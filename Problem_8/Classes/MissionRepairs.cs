@@ -14,9 +14,9 @@
         return state;
     }
     
-    public override string? ToString()
+    public override string ToString()
     {
-        return $"Code Name: {codeName} State: {(state ? "inProgress" : "Finished" )}";
+        return $"\tCode Name: {codeName} State: {(state ? "inProgress" : "Finished" )}";
     }
 }
 
@@ -31,8 +31,8 @@ class Repair : IRepair
         this.hoursWorked = hoursWorked;
     }
 
-    public override string? ToString()
+    public override string ToString()
     {
-        return $"Part Name: {partName} Hours Worked: {hoursWorked}";
+        return $"\tPart Name: {partName} Hours Worked: {hoursWorked}";
     }
 }

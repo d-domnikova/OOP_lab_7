@@ -13,7 +13,7 @@
 
     public override string ToString()
     {
-        return $"{GetType().Name}: \nName: {firstName} {lastName} Id: {id}";
+        return $"Name: {firstName} {lastName} Id: {id}";
     }
 }
 
